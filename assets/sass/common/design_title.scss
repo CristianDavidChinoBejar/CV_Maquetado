@@ -1,0 +1,21 @@
+@import '../common/variables.scss';
+@import './mixin.scss';
+
+.design_title_barra{
+    width: 90%;
+    height: 45px;
+    background-color: $gray_light;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.design_title_normal{
+    height: 50px;
+    background-color: $gray_light;
+    border-radius: 20px 20px 20px 20px;
+    display: flex;
+    align-items: center;
+    h2{
+        @include titles;
+    }
+}  
+

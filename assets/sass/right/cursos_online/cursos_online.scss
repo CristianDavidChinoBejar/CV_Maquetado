@@ -1,0 +1,22 @@
+@import '../../common/mixin.scss';
+@import '../../common/variables.scss';
+ 
+.cursos_online{
+    margin-bottom: 30px;
+    .design_title_normal{
+        width: 65%;
+        margin-top: 15px;   
+        margin-left: 73px;
+        h2{
+            padding-left: 50px;    
+        }
+    }
+    p{
+        @include letter_regular;
+        color: $gray;
+        margin-top: 10px;
+        margin-left: 45px;
+        font-size: 15px;
+        font-weight: 500;
+    }
+} 

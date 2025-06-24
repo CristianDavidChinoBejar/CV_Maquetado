@@ -1,0 +1,28 @@
+@import '../../common/mixin.scss';
+@import '../../common/variables.scss';
+
+.experience{
+    margin-left: 10%;
+    .design_title_normal{
+        margin-top: 17px;
+    }
+    .info{
+        .date{
+            @include letter_bold;      
+            color: $letter_bold;
+            font-size: 17px;
+            margin-top: 8px;
+        }
+        .empresa{
+            @include letter_bold;
+            color: $letter_light;
+            font-size: 17px;
+            
+        }
+        .tareas{
+            @include letter_regular;
+            color: $gray;
+            font-size: 17px;
+        }
+    }
+}

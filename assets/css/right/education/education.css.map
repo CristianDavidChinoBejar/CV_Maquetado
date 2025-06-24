@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAII,+BAAoB;EAChB,KAAK,EAAE,GAAG;EACV,UAAU,EAAE,IAAI;EAChB,WAAW,EAAE,IAAI;AAErB,gBAAK;EACD,WAAW,EAAE,IAAI;EAEjB,uBAAM;ICDV,WAAW,EAAE,oBAAoB;IACjC,WAAW,EAAE,GAAG;IDER,SAAS,EAAE,IAAI;IACf,KAAK,EEPV,OAAO;IFQF,UAAU,EAAE,IAAI;EAEpB,6BAAY;ICDhB,WAAW,EAAE,oBAAoB;IACjC,WAAW,EAAE,GAAG;IDER,KAAK,EEdH,OAAO;IFeT,SAAS,EAAE,IAAI;IACf,oCAAM;MCXd,WAAW,EAAE,oBAAoB;MACjC,WAAW,EAAE,GAAG;MDYJ,KAAK,EEhBd,OAAO",
+"sources": ["../../../sass/right/education/education.scss","../../../sass/common/mixin.scss","../../../sass/common/variables.scss"],
+"names": [],
+"file": "education.css"
+}

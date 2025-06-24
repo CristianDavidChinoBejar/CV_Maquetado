@@ -1,0 +1,60 @@
+.contact {
+  background-color: #7b75ae;
+  margin-left: 10%;
+  border-radius: 0 0 20px 20px; }
+  .contact .photo_perfil {
+    width: 79%; }
+    .contact .photo_perfil img {
+      width: 100%;
+      border-radius: 18%;
+      border: 3px solid #ffffff;
+      margin-top: 25px;
+      margin-left: 12%; }
+  .contact .design_title_barra {
+    margin-top: 8px;
+    margin-left: -12px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .contact .design_title_barra h2 {
+      font-size: 27px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      padding-left: 25%;
+      color: #ffffff; }
+  .contact .shadow {
+    width: 12px;
+    height: 20px;
+    background-color: #575657;
+    margin-left: -12px;
+    clip-path: polygon(0 0, 100% 0, 100% 70%); }
+  .contact .personal_info .iconos {
+    margin-left: 11%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px; }
+    .contact .personal_info .iconos img {
+      width: 13%; }
+    .contact .personal_info .iconos p {
+      color: #ffffff;
+      padding-left: 7%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 17px; }
+  .contact .personal_info .redes_sociales {
+    width: 88%;
+    height: 40px;
+    background-color: #7f7f80;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 4%;
+    margin-top: 8px;
+    margin-bottom: 9px; }
+    .contact .personal_info .redes_sociales p {
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 12.5px;
+      padding-top: 3px;
+      padding-left: 5%; }
+
+/*# sourceMappingURL=contact.css.map */

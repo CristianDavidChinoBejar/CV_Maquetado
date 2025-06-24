@@ -1,0 +1,22 @@
+.experience {
+  margin-left: 10%; }
+  .experience .design_title_normal {
+    margin-top: 17px; }
+  .experience .info .date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #363d42;
+    font-size: 17px;
+    margin-top: 8px; }
+  .experience .info .empresa {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #5e5b5c;
+    font-size: 17px; }
+  .experience .info .tareas {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #747172;
+    font-size: 17px; }
+
+/*# sourceMappingURL=experience.css.map */

@@ -1,0 +1,57 @@
+@import '../../common/variables.scss';
+@import '../../common/mixin.scss';
+
+.container{ 
+    width: 90%;
+    padding-left: 8%;
+    .skills:nth-child(1){
+        display: flex;
+        border-bottom: 1px solid $white;
+        margin-bottom: 15px;
+        p{
+            padding-right: 18%;
+            @include letter_regular;
+            font-size: 17px;
+            color: $white;
+            padding-bottom: 20px;
+        }
+    }
+
+    .skills:nth-child(2){
+        display: flex;
+        border-bottom: 1px solid $white;
+        margin-bottom: 20px;
+        p{
+            padding-right: 10%;
+            @include letter_regular;
+            color: $white;
+            padding-bottom: 20px;
+            font-size: 17px;
+        }
+    }
+    .skills:nth-child(3){
+        display: flex;
+        
+        p:nth-child(1){
+            padding-right: 7%;
+            @include letter_regular;
+            color: $white;
+            padding-bottom: 40px;
+            font-size: 17px;
+        }
+        p:nth-child(2){
+            padding-right: 7%;
+            @include letter_regular;
+            color: $white;
+            padding-bottom: 40px;
+            font-size: 17px;
+        }
+        p:nth-child(3){
+            padding-left: 0%;
+            @include letter_regular;
+            color: $white;
+            padding-bottom: 40px;
+            font-size: 17px;
+        }
+    }
+}

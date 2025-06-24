@@ -1,0 +1,50 @@
+.container {
+  width: 90%;
+  padding-left: 8%; }
+  .container .skills:nth-child(1) {
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 15px; }
+    .container .skills:nth-child(1) p {
+      padding-right: 18%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      color: #ffffff;
+      padding-bottom: 20px; }
+  .container .skills:nth-child(2) {
+    display: flex;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px; }
+    .container .skills:nth-child(2) p {
+      padding-right: 10%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      padding-bottom: 20px;
+      font-size: 17px; }
+  .container .skills:nth-child(3) {
+    display: flex; }
+    .container .skills:nth-child(3) p:nth-child(1) {
+      padding-right: 7%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      padding-bottom: 40px;
+      font-size: 17px; }
+    .container .skills:nth-child(3) p:nth-child(2) {
+      padding-right: 7%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      padding-bottom: 40px;
+      font-size: 17px; }
+    .container .skills:nth-child(3) p:nth-child(3) {
+      padding-left: 0%;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      padding-bottom: 40px;
+      font-size: 17px; }
+
+/*# sourceMappingURL=skills.css.map */

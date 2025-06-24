@@ -1,0 +1,22 @@
+@import './left/barra_izquierda/contact.scss';
+@import './left/barra_izquierda/skills.scss';
+@import './left/experience/experience.scss';
+@import './left/columna_izquierda/col_left.scss';
+
+@import './right/presentation/title_present.scss';
+@import './right/columna_derecha/col_right.scss';
+@import './right/education/education.scss';
+@import './right/cursos_online/cursos_online.scss';
+
+@import './common/design_title.scss';
+@import './common/variables.scss';
+@import './common/mixin.scss';
+ 
+*{ 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+   

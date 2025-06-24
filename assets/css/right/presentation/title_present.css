@@ -1,0 +1,30 @@
+.contenedor {
+  background-color: #ffffff;
+  display: flex;
+  width: 43%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #747172; }
+  .contenedor header .design_violet {
+    width: 100%;
+    height: 155px;
+    background-color: #7b75ae;
+    border-radius: 0px 0px 70px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .contenedor header .design_violet h1 {
+      color: #ffffff;
+      font-size: 48px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500; }
+  .contenedor header p {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #747172;
+    margin-top: 3%;
+    font-size: 16px;
+    line-height: 20px; }
+
+/*# sourceMappingURL=title_present.css.map */

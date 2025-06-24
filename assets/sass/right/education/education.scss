@@ -1,0 +1,29 @@
+@import '../../common/variables.scss';
+@import '../../common/mixin.scss';
+
+.education{
+    .design_title_normal{
+        width: 65%;
+        margin-top: 18px;
+        margin-left: 73px;
+    }
+    .info{
+        margin-left: 45px;
+        
+        .fecha{
+            @include letter_regular;
+            font-size: 18px;
+            color: $gray;
+            margin-top: 10px;
+        }
+        .institucion{
+            @include letter_bold;      
+            color: $letter_bold;
+            font-size: 17px;
+            .iaraa{
+                @include letter_regular;
+                color: $gray;
+            }
+        }
+    }
+}

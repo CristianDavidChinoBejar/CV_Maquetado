@@ -1,0 +1,18 @@
+.cursos_online {
+  margin-bottom: 30px; }
+  .cursos_online .design_title_normal {
+    width: 65%;
+    margin-top: 15px;
+    margin-left: 73px; }
+    .cursos_online .design_title_normal h2 {
+      padding-left: 50px; }
+  .cursos_online p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #747172;
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 15px;
+    font-weight: 500; }
+
+/*# sourceMappingURL=cursos_online.css.map */

@@ -1,0 +1,23 @@
+.education .design_title_normal {
+  width: 65%;
+  margin-top: 18px;
+  margin-left: 73px; }
+.education .info {
+  margin-left: 45px; }
+  .education .info .fecha {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #747172;
+    margin-top: 10px; }
+  .education .info .institucion {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #363d42;
+    font-size: 17px; }
+    .education .info .institucion .iaraa {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      color: #747172; }
+
+/*# sourceMappingURL=education.css.map */

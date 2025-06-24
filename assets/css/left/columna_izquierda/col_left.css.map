@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,SAAS;EACL,KAAK,EAAE,GAAG",
+"sources": ["../../../sass/left/columna_izquierda/col_left.scss"],
+"names": [],
+"file": "col_left.css"
+}

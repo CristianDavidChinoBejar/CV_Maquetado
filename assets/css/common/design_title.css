@@ -1,0 +1,20 @@
+.design_title_barra {
+  width: 90%;
+  height: 45px;
+  background-color: #7f7f80;
+  border-radius: 0px 15px 15px 0px; }
+
+.design_title_normal {
+  height: 50px;
+  background-color: #7f7f80;
+  border-radius: 20px 20px 20px 20px;
+  display: flex;
+  align-items: center; }
+  .design_title_normal h2 {
+    font-size: 27px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 25%;
+    color: #ffffff; }
+
+/*# sourceMappingURL=design_title.css.map */

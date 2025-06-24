@@ -1,0 +1,70 @@
+@import '../../common/variables.scss';
+@import '../../common/mixin.scss';
+.contact{
+    background-color: $violet;
+    margin-left: 10%;
+    border-radius: 0 0 20px 20px;
+    .photo_perfil{
+        width: 79%; 
+        img{
+            width: 100%;
+            border-radius: 18%;
+            border: 3px solid $white;
+            margin-top: 25px;
+            margin-left: 12%;    
+        }
+    }
+    .design_title_barra{
+        margin-top: 8px;
+        margin-left: -12px; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2{
+            @include titles;
+        }
+    }
+    .shadow{
+        width: 12px;
+        height: 20px;
+        background-color: $shadow_title; 
+        margin-left: -12px;
+        clip-path: polygon(0 0, 100% 0, 100% 70%);
+    }
+    .personal_info{
+        .iconos{
+            margin-left: 11%;
+            display: flex;
+            align-items: center;
+            margin-bottom: 5px;
+            img{
+                 width: 13%;
+            }
+            p{
+                color: $white;
+                padding-left: 7%;
+                @include letter_regular;
+                font-size: 17px;
+            }
+        }
+        .redes_sociales{
+            width: 88%;
+            height: 40px;
+            background-color: $gray_light;
+            border-radius: 20px 20px 20px 20px;
+            margin-left: 4%;
+            margin-top: 8px;
+            margin-bottom: 9px;
+            p{
+            color: $white;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+            font-size: 12.5px;
+            padding-top: 3px;
+            padding-left: 5%;
+            
+            }
+        }
+    }
+}
+ 
